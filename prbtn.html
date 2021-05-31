@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background: #222;
+        }
+        .btn {
+            display: inline-flex;
+            position: relative;
+            outline: none;
+            font-size: 1rem;
+            padding: .55em 2em;
+            text-align: center;
+            background: white;
+            color: #222;
+            border: .15em solid wheat;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all .3s linear;
+            text-decoration: none;
+
+            overflow: hidden;
+        }
+
+
+        .btn span {
+            position: relative;
+            z-index: 1;
+        }
+
+        .btn::before {
+            content: '';
+            position: absolute;
+            top: var(--y);
+            left: var(--x);
+            transform: translate(-50%, -50%);
+            width: 0px;
+            height: 0px;
+            border-radius: 50%;
+            background: rgb(212, 157, 157);
+            transition: width 0.5s, height 0.5s;
+        }
+
+        .btn:hover::before {
+            width: 300px;
+            height: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <a class="btn" href="#"><span>Learn More</span></a>
+
+    <script>
+        const btnHover = document.querySelector('.btn');
+        btnHover.onmousemove = function(e){
+            const x = e.pageX - btnHover.offsetLeft;
+            const y = e.pageY - btnHover.offsetTop;
+
+            btnHover.style.setProperty('--x', x + 'px');
+            btnHover.style.setProperty('--y', y + 'px');
+        }
+    </script>
+</body>
+
+</html>
