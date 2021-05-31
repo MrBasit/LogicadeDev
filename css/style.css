@@ -587,7 +587,7 @@ body::-webkit-scrollbar-thumb:hover {
 @media (max-width: 415px){
     html
     {
-		font-size: 8.5px !important;
+		font-size: 9px !important;
     }
     /* header */
     .portfolio_search_main.pd-left-right{
