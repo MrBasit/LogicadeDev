@@ -594,6 +594,10 @@ body::-webkit-scrollbar-thumb:hover {
         padding: 0 2.5em;
     }
       /* showcase */
+      .home_showcase{
+          margin-top: 0 !important;
+          margin-bottom: 0 !important;
+      }
     .home_showcase .col-5{
         width: 75% !important;
     }
@@ -603,22 +607,43 @@ body::-webkit-scrollbar-thumb:hover {
         top: 43% !important;
         transform: translate(-60%, -43%) scale(1) !important;
     }
+    .slide-control{
+        top: 45% !important;
+        transform: translate(-50%, -45%) !important;
+    }
     .slide img{
         max-height: 21rem !important;
     }
     /* services */
+    .services {
+        margin-top: 1rem !important;
+        margin-bottom: 4rem !important;
+    }
     .services-inner-container {
         padding: 1.5em !important;
     }
     /* products */
+    .home_portfolio {
+        padding: 4.5em 5.5% !important;
+    }
     .product__card__title{
         font-size: 1.2rem !important;
     }
     /* our aim */
+    .aim {
+        margin-top: 4rem !important;
+        margin-bottom: 6rem !important;
+    }
+    .aim{
+        padding: 0 3.5em !important;
+    }
     .aim-img-imgs{
         height: 18rem !important;
     }
     /* team */
+    .home_team {
+        padding: 4em 0 4em 3.5em !important;
+    }
     .team_card .team_card_head{
         height: 18rem !important;
     }
@@ -632,7 +657,7 @@ body::-webkit-scrollbar-thumb:hover {
         font-size: 1rem !important;
     }
     /* porfolio */
-   
+    
     .tabs .tab-header > div{
         font-size: 1rem !important;
     }
@@ -640,6 +665,9 @@ body::-webkit-scrollbar-thumb:hover {
         margin-left: 1.1rem !important;
     }
     /* request */
+    .home_req {
+        padding: 4em 5.5% 4em 5.5% !important;
+    }
     .home_req_catrgories span.home_req_catrgories_i_need_title{
         font-size: 1.7rem !important;
     }
@@ -651,6 +679,9 @@ body::-webkit-scrollbar-thumb:hover {
     }
     .home_req .select-box{
         width: 81% !important;
+    }
+    footer {
+        padding: 4em 5.5% 4em 5.5% !important;
     }
 }
 
