@@ -606,6 +606,20 @@ body::-webkit-scrollbar-thumb:hover {
     .slide img{
         max-height: 23rem !important;
     }
+    /* services */
+    .services-inner-container {
+        padding: 1.5em !important;
+    }
+    /* products */
+    .team_card_body{
+        padding: 1.5em 1.3em !important;
+    }
+    .product__card__name{
+        font-size: 1.1rem !important;
+    }
+    .product__card__skills{
+        font-size: 1rem !important;
+    }
     /* porfolio */
    
     .tabs .tab-header > div{
@@ -616,7 +630,7 @@ body::-webkit-scrollbar-thumb:hover {
     }
     /* request */
     .home_req_catrgories span.home_req_catrgories_i_need_title{
-        font-size: 1.9rem !important;
+        font-size: 1.7rem !important;
     }
     .home_req .selected::after{
         right: .1rem !important;
