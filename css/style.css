@@ -598,21 +598,32 @@ body::-webkit-scrollbar-thumb:hover {
         width: 75% !important;
     }
     .home_showcase .slider-controls {
-        width: 18rem !important;
-        height: 17rem !important;
-        top: 50% !important;
-        transform: translate(-60%, -50%) scale(1) !important;
+        width: 17rem !important;
+        height: 16rem !important;
+        top: 43% !important;
+        transform: translate(-60%, -43%) scale(1) !important;
     }
     .slide img{
-        max-height: 23rem !important;
+        max-height: 21rem !important;
     }
     /* services */
     .services-inner-container {
         padding: 1.5em !important;
     }
     /* products */
+    .product__card__title{
+        font-size: 1.2rem !important;
+    }
+    /* our aim */
+    .aim-img-imgs{
+        height: 18rem !important;
+    }
+    /* team */
+    .team_card .team_card_head{
+        height: 18rem !important;
+    }
     .team_card_body{
-        padding: 1.5em 1.3em !important;
+        padding: 1.3em !important;
     }
     .product__card__name{
         font-size: 1.1rem !important;
