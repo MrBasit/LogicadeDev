@@ -119,7 +119,7 @@ function autoPlay() {
   updateCircleIndicator();
 }
 
-let timer = setInterval(autoPlay, 3000);
+// let timer = setInterval(autoPlay, 3000);
 
 // PULSE SLIDER
 let isSliding = false;
