@@ -961,7 +961,7 @@
                 <div class="team_card">
                     <div class="team_card_head founder">
                         <img src="./img/teammember1.jpg" alt="Alex Belov">
-                        <img src="./img/Img5.jpg" alt="Alex Belov Wallpaper">
+                        <!-- <img src="./img/Img5.jpg" alt="Alex Belov Wallpaper"> -->
                     </div>
                     <div class="team_card_body">
                         <h1 class="team_mem_name">Alex Belov</h1>
@@ -978,7 +978,7 @@
                 <div class="team_card">
                     <div class="team_card_head lead-developer">
                         <img src="./img/teammember2.jpg" alt="John Doe">
-                        <img src="./img/Img22.jpg" alt="John Doe">
+                        <!-- <img src="./img/Img22.jpg" alt="John Doe"> -->
                     </div>
                     <div class="team_card_body">
                         <h1 class="team_mem_name">John Doe</h1>
@@ -995,7 +995,7 @@
                 <div class="team_card">
                     <div class="team_card_head ux-designer">
                         <img src="./img/teammember3.jpg" alt="John Vander">
-                        <img src="./img/Img26.jpg" alt="John Vander">
+                        <!-- <img src="./img/Img26.jpg" alt="John Vander"> -->
                     </div>
                     <div class="team_card_body">
                         <h1 class="team_mem_name">John Vander</h1>
@@ -1264,43 +1264,6 @@
                 image1: imgs[0].getAttribute('src'),
                 image2: imgs[1].getAttribute('src'),
                 displacementImage: '/img/14.jpg'
-            });
-        })
-        // team sec
-        Array.from(document.querySelectorAll('.founder')).forEach((e) => {
-            const imgs = Array.from(e.querySelectorAll('img'));
-            console.log(imgs);
-            
-            new hoverEffect({
-                parent: e,
-                intensity: 0.5,
-                image1: imgs[0].getAttribute('src'),
-                image2: imgs[1].getAttribute('src'),
-                displacementImage: '/img/1.jpg'
-            });
-        })
-        Array.from(document.querySelectorAll('.lead-developer')).forEach((e) => {
-            const imgs = Array.from(e.querySelectorAll('img'));
-            console.log(imgs);
-            
-            new hoverEffect({
-                parent: e,
-                intensity: 0.5,
-                image1: imgs[0].getAttribute('src'),
-                image2: imgs[1].getAttribute('src'),
-                displacementImage: '/img/3.jpg'
-            });
-        })
-        Array.from(document.querySelectorAll('.ux-designer')).forEach((e) => {
-            const imgs = Array.from(e.querySelectorAll('img'));
-            console.log(imgs);
-            
-            new hoverEffect({
-                parent: e,
-                intensity: 0.5,
-                image1: imgs[0].getAttribute('src'),
-                image2: imgs[1].getAttribute('src'),
-                displacementImage: '/img/4.png'
             });
         })
     </script>
