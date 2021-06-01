@@ -488,7 +488,7 @@ body::-webkit-scrollbar-thumb:hover {
     }
    /* services */
    .services-inner-container p{
-       margin: 1.64rem 0 !important;
+       margin: 1rem 0 1.64rem 0 !important;
    }
    .services p{
        padding-right: 0 !important;
