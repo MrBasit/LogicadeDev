@@ -563,6 +563,9 @@ body::-webkit-scrollbar-thumb:hover {
     .team_card span + span{
         margin-left: 1.5rem !important;
     }
+    .team_card span + span::after{
+        left: -1rem !important;
+    }
     /* footer */
     .footer-main{
         font-size: 1rem !important;
