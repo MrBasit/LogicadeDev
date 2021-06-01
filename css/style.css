@@ -1767,12 +1767,15 @@ header.header_shadow{
 .aim-text h3{
     font-size: 30px;
     padding-bottom: 1em;
+    line-height: 1;
 }
 .aim-text p{
-    padding-bottom: 4.5em;
-    line-height:2.0;
+    padding-bottom: 4em;
     padding-right: 1.5em;
     font-weight: 500;
+
+    font-size: 1.3rem;
+    line-height: 1.5;
 
 }
 .aim-img-main-div:hover .aim-img-div{
