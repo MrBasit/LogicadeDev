@@ -513,6 +513,9 @@ body::-webkit-scrollbar-thumb:hover {
     .aim-text-detalis{
         padding-right: 0 !important;
     }
+    .aim-text p{
+        line-height:  1.5 !important;
+    }
     .aim-img-main-div{
         width: 65% !important;
         margin-top: 8rem !important;
