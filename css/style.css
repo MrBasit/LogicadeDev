@@ -490,9 +490,6 @@ body::-webkit-scrollbar-thumb:hover {
    .services-inner-container p{
        margin: 1rem 0 1.64rem 0 !important;
    }
-   .services p{
-       padding-right: 0 !important;
-   }
     /* aim */
     .aim-heading{
         max-width: 100% !important;
@@ -530,6 +527,7 @@ body::-webkit-scrollbar-thumb:hover {
     /* home req */
     .home_req .home_req_title{
         font-size: 3rem !important;
+        margin-bottom: 2rem !important;
     }
     .home_req #home_email{
         font-size: 3rem !important;
@@ -555,6 +553,9 @@ body::-webkit-scrollbar-thumb:hover {
     .home_req .select-box .options-container.active + .selected::after {
         top: -.3rem !important;
     }
+    .home_req .home_req_sub_btn{
+        margin-top: 3rem !important;
+    }
     /* footer */
     .footer-main{
         font-size: 1rem !important;
@@ -577,9 +578,17 @@ body::-webkit-scrollbar-thumb:hover {
         margin-top: 0;
     }
     /* services & porfolio */
+    .home_portfolio > h1,
+    .home-titles, .home_team_title{
+        margin-bottom: 2rem !important;
+    }
+    .home_portfolio > p{
+
+    }
     .home_portfolio > p,
     .services p{
         line-height: 1.4 !important;
+        margin-bottom: 2rem !important;
     }
     /* ----- home scroll spy ------------------------------------------------------- */
     .header_list_link.active{
