@@ -1139,10 +1139,13 @@ header.header_shadow{
     transition: color .3s;
 }
 .services-inner-container p{
-    margin: 1.94rem 0;
+    margin: 1.74rem 0;
     font-family: system-ui;
     color: var(--clr-prm);
-    transition: color .3s;  
+    transition: color .3s;
+    padding-right: 0;  
+    font-size: 1.1rem;
+    line-height: 1.2;
 }
 .services-icon-ul{
     display: flex;
