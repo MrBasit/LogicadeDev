@@ -672,7 +672,8 @@ body::-webkit-scrollbar-thumb:hover {
     }
     /* products */
     .home_portfolio {
-        padding: 4.5em 5.5% !important;
+        padding: 4.5em 3.5em !important;
+        /* padding: 4.5em 5.5% !important; */
     }
     .product__card__title{
         font-size: 1.2rem !important;
@@ -721,7 +722,8 @@ body::-webkit-scrollbar-thumb:hover {
     }
     /* request */
     .home_req {
-        padding: 4em 5.5% 4em 5.5% !important;
+        padding: 4em 3.5em 4em 3.5em !important;
+        /* padding: 4em 5.5% 4em 5.5% !important; */
     }
     .home_req_catrgories span.home_req_catrgories_i_need_title{
         font-size: 1.7rem !important;
@@ -736,7 +738,8 @@ body::-webkit-scrollbar-thumb:hover {
         width: 81% !important;
     }
     footer {
-        padding: 4em 5.5% 4em 5.5% !important;
+        padding: 4em 3.5em 4em 3.5em !important;
+        /* padding: 4em 5.5% 4em 5.5% !important; */
     }
 }
 
@@ -1534,7 +1537,8 @@ header.header_shadow{
 
 /* ---- home porfolio --------------------------------------------------------------*/
 .home_portfolio{
-    padding: 6em 5.5%;
+    padding: 6em 3.5em;
+    /* padding: 6em 5.5%; */
     background-color: var(--clr-lightblue);
 }
 .home_portfolio > h1{
@@ -1879,7 +1883,8 @@ header.header_shadow{
 /* ---- home req --------------------------------------------------------------*/
 .home_req{
     background-color: var(--clr-lightblue);
-    padding: 6em 5.5% 6em 5.5%;
+    padding: 6em 3.5em 6em 3.5em;
+    /* padding: 6em 5.5% 6em 5.5%; */
 }
 .home_req .home_req_title{
     font-size: 4rem;
@@ -2102,7 +2107,8 @@ header.header_shadow{
 /* ---- footer --------------------------------------------------------------*/
 
 footer{
-    padding: 7.5em 5.5% 6em 5.5%;
+    padding: 7.5em 3.5em 6em 3.5em;
+    /* padding: 7.5em 5.5% 6em 5.5%; */
 }
 footer p,
 footer li,
