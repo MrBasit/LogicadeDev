@@ -60,6 +60,7 @@ img{
   --clr-sec: #f27e63;
   --clr-lightgrey:#bdbdbd;
   --clr-darkgrey:#9ba4b4;
+  --clr-darkgrey1:#818896;
   --clr-lightgrey-sec:#afb6c3;
   --clr-lightblue:#f1f6f9;
   --clr-email-placeholder:#dee4e7;
@@ -1845,7 +1846,7 @@ header.header_shadow{
 .team_card span{
     font-size: .9rem;
     font-size: 400;
-    color: var(--clr-lightgrey);
+    color: var(--clr-darkgrey1);
     position: relative;
 }
 .team_card span + span{
