@@ -618,11 +618,11 @@ body::-webkit-scrollbar-thumb:hover {
     .portfolio_search_main.pd-left-right{
         padding: 0 2.5em;
     }
-      /* showcase */
-      .home_showcase{
-          margin-top: 0 !important;
-          margin-bottom: 0 !important;
-      }
+    /* showcase */
+    .home_showcase{
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
     .home_showcase .col-5{
         width: 75% !important;
     }
@@ -660,7 +660,7 @@ body::-webkit-scrollbar-thumb:hover {
         margin-bottom: 6rem !important;
         padding: 0 3.5em !important;
     }
-    .home-titles{
+    .aim-heading .home-titles{
         margin-bottom: 0 !important;
     }
     .aim-text{
