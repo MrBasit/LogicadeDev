@@ -559,6 +559,10 @@ body::-webkit-scrollbar-thumb:hover {
     .home_req .home_req_sub_btn{
         margin-top: 3rem !important;
     }
+    /* team */
+    .team_card span + span{
+        margin-left: 1.5rem !important;
+    }
     /* footer */
     .footer-main{
         font-size: 1rem !important;
