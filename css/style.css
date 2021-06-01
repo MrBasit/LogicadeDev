@@ -573,6 +573,11 @@ body::-webkit-scrollbar-thumb:hover {
         order: 2;
         margin-top: 0;
     }
+    /* services & porfolio */
+    .home_portfolio > p,
+    .services p{
+        line-height: 1.4 !important;
+    }
     /* ----- home scroll spy ------------------------------------------------------- */
     .header_list_link.active{
         color: var(--clr-white) !important;
@@ -1249,7 +1254,7 @@ header.header_shadow{
 .info p{
     margin: 1rem 0 1.8rem 0;
     text-align: justify;
-    line-height: 1.5;
+    line-height: 1.4;
 
     font-weight: 500;
 }
