@@ -601,7 +601,7 @@ body::-webkit-scrollbar-thumb:hover {
     }
     /* aim */
     .aim-img-imgs{
-        height: 20rem !important;
+        height: 19rem !important;
     }
      /* our portfolio */
     .tabs .tab-body .tab_row{
@@ -681,9 +681,6 @@ body::-webkit-scrollbar-thumb:hover {
     /* team */
     .home_team {
         padding: 4em 0 4em 3.5em !important;
-    }
-    .team_card .team_card_head{
-        /* height: 18rem !important; */
     }
     .team_card_body{
         padding: 1.3em !important;
@@ -1810,22 +1807,6 @@ header.header_shadow{
     background-color: var(--clr-lightblue);
     transition: transform .2s ease-in-out;
 }
-
-.team_card .team_card_head{
-   /* height: 20rem; 
-   position: relative; */
-}
-
-.team_card .team_card_head img{
-    /* position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    display: none; */
-}
-
 
 .team_card_body{
     padding: 1.5em 1.6em;
