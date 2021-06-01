@@ -936,8 +936,6 @@
                     <div class="aim-img-div"></div>
                     <div class="aim-img-imgs">
                             <img src="./img/our-aim-sec.jpg" alt="" />
-                            <img src="./img/teammember2.jpg" alt="" />
-                        
                     </div>
                 </div>
             </div>
@@ -1243,27 +1241,6 @@
     <!-- javascript -->
     <script src="./js/app.js"></script>
     <script src="./js/main.js"></script>
-    <!-- three js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" ></script>
-    <!-- gsap -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/gsap.min.js"></script>
-    <!-- hover -->
-    <script src="./js/hover.js"></script>
-    <script type="text/javascript">
-        // aim
-        Array.from(document.querySelectorAll('.aim-img-imgs')).forEach((e) => {
-            const imgs = Array.from(e.querySelectorAll('img'));
-            console.log(imgs);
-            
-            new hoverEffect({
-                parent: e,
-                intensity: 0.5,
-                image1: imgs[0].getAttribute('src'),
-                image2: imgs[1].getAttribute('src'),
-                displacementImage: '/img/14.jpg'
-            });
-        })
-    </script>
     <script>
         const btnHover = document.querySelectorAll('.btn.btn-dark');
         btnHover.forEach(btn => {

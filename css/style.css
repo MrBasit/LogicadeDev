@@ -600,9 +600,7 @@ body::-webkit-scrollbar-thumb:hover {
         width: 65% !important;
     }
     /* aim */
-    .aim-img-imgs{
-        height: 19rem !important;
-    }
+
      /* our portfolio */
     .tabs .tab-body .tab_row{
         grid-template-columns: repeat(2, 48%) !important;   
@@ -674,9 +672,6 @@ body::-webkit-scrollbar-thumb:hover {
     }
     .aim-img-main-div{
         width: 75% !important;
-    }
-    .aim-img-imgs{
-        height: 17rem !important;
     }
     /* team */
     .home_team {
@@ -1755,18 +1750,7 @@ header.header_shadow{
     position: relative; 
 }
 .aim-img-imgs{
-    position: relative;
-    height: 22.9rem;
     width: 100%;
-}
-.aim-img-imgs img{
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    display: none;
 }
 
 .aim-img-div{
